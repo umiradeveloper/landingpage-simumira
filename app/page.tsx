@@ -1,34 +1,106 @@
 import Image from "next/image";
-import EbookSection from "./component/EbookSection";
+import EbookSection from "./EbookSection";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#FBF6C9] via-[#9FB4B8] to-[#1F4F8B]">
       {/* Header */}
       <header className="flex items-center justify-between px-10 py-6">
-        <h1 className="text-2xl font-bold text-blue-700">umira</h1>
-        <span className="text-sm font-medium text-blue-700">Panduan</span>
+         <Link href="/" className="flex items-center">
+          <Image
+            src="/images/umiralogo.png"
+            alt="Umira Logo"
+            width={225}
+            height={50}
+            className="object-contain"
+            priority
+          />
+        </Link>
+        <Link 
+        href="#panduan"
+        className=" text-xl text-[#086078] mr-20">
+          Panduan
+        </Link>
       </header>
 
       {/* Hero */}
-      <section className="text-center mt-16">
-        <h2 className="text-4xl font-bold text-blue-800">
+      <section className="text-center mt-25">
+        <h2 className="text-7xl  tracking-thight  font-bold justify-center text-[#086078]">
           Welcome to Umira.
         </h2>
-        <p className="mt-3 text-blue-700 max-w-xl mx-auto">
+        <p className="mt-1 text-[#086078] max-w-lg mx-auto text-xl leading-relaxed leading-tight">
           professional, rapidly growing, sustainable design and engineering
           construction company since 2016.
         </p>
 
         <div className="flex justify-center gap-4 mt-6">
-          <button className="px-6 py-2 rounded-full bg-blue-700 text-white font-semibold">
-            SuperApps →
-          </button>
-          <button className="px-6 py-2 rounded-full bg-blue-700 text-white font-semibold">
-            VMS →
-          </button>
+          <a href="https://superapps.simumira.com/apps/LoginRegister/"
+          target="_blank">
+          <button className="group
+            px-8 py-2
+            rounded-full
+            bg-[#086078]
+            text-white
+            font-semibold
+            flex items-center gap-2
+            transition-all duration-300
+            hover:bg-[#163a6b]
+            hover:shadow-lg
+            hover:-translate-y-0.5
+            ">
+            SuperApps
+            <span className="transition-transform duration-300 group-hover:translate-x-1">
+                →
+            </span>
+            
+           </button>     
+          </a>
+          <a href="https://vms.simumira.com/apps/LoginRegister/"
+          target="_blank">
+          <button className="
+                group
+            px-14 py-2
+            rounded-full
+            bg-[#086078]
+            text-white
+            font-semibold
+            flex items-center gap-2
+            transition-all duration-300
+            hover:bg-[#163a6b]
+            hover:shadow-lg
+            hover:-translate-y-0.5
+            ">
+            Vms
+            <span className="transition-transform duration-300 group-hover:translate-x-1">
+              →
+            </span>
+             </button>
+          </a>
         </div>
       </section>
+      
+      <div className="grid place-items-center">    
+      <Link href="https://vms.simumira.com/"
+      target="_blank">
+      <div className="group relative py-5 p-1 mt-20 w-full max-w-md j cursor-pointer overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl border-sky-950">
+        <Image 
+          src="/images/vms-login.png" // ganti sesuai gambar kamu
+          alt="VMS login"
+          width={700}
+          height={400}
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+
+        <div className="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+        <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
+          <h3 className="text-xl font-semibold">VMS Login</h3>
+          <p className="text-sm">Klik untuk membuka Vms web</p>
+        </div>
+      </div>
+    </Link>
+    </div>
 
       {/* Login */}
       <section className="flex justify-center mt-16">
