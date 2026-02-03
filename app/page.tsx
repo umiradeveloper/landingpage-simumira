@@ -11,7 +11,7 @@ export default function Home() {
           <Image
             src="/images/umiralogo.png"
             alt="Umira Logo"
-            width={225}
+            width={270}
             height={50}
             className="object-contain"
             priority
@@ -19,33 +19,33 @@ export default function Home() {
         </Link>
         <Link 
         href="#panduan"
-        className=" text-xl text-[#086078] mr-20">
+        className=" text-2xl text-[#086078] mr-20">
           Panduan
         </Link>
       </header>
 
       {/* Hero */}
-      <section className="text-center mt-25">
+      <section className="text-center mt-20">
         <h2 className="text-7xl  tracking-thight  font-bold justify-center text-[#086078]">
           Welcome to Umira.
         </h2>
-        <p className="mt-1 text-[#086078] max-w-lg mx-auto text-xl leading-relaxed leading-tight">
+        <p className="mt-1 text-[#086078] max-w-lg mx-auto text-xl leading-thight justify-center ">
           professional, rapidly growing, sustainable design and engineering
           construction company since 2016.
         </p>
 
-        <div className="flex justify-center gap-4 mt-6">
+        <div className="flex justify-center gap-8  mt-8">
           <a href="https://superapps.simumira.com/apps/LoginRegister/"
           target="_blank">
           <button className="group
-            px-8 py-2
+            px-10 py-3
             rounded-full
             bg-[#086078]
             text-white
             font-semibold
             flex items-center gap-2
             transition-all duration-300
-            hover:bg-[#163a6b]
+            hover:bg-[#164048]
             hover:shadow-lg
             hover:-translate-y-0.5
             ">
@@ -60,14 +60,14 @@ export default function Home() {
           target="_blank">
           <button className="
                 group
-            px-14 py-2
+            px-14 py-3
             rounded-full
             bg-[#086078]
             text-white
             font-semibold
             flex items-center gap-2
             transition-all duration-300
-            hover:bg-[#163a6b]
+            hover:bg-[#164048]
             hover:shadow-lg
             hover:-translate-y-0.5
             ">
@@ -77,13 +77,34 @@ export default function Home() {
             </span>
              </button>
           </a>
+          <a href="https://drive.simumira.com/#/signin"
+          target="_blank">
+          <button className="group
+            px-10 py-3
+            rounded-full
+            bg-[#086078]
+            text-white
+            font-semibold
+            flex items-center gap-2
+            transition-all duration-300
+            hover:bg-[#164048]
+            hover:shadow-lg
+            hover:-translate-y-0.5
+            ">
+            UmiraDrive
+            <span className="transition-transform duration-300 group-hover:translate-x-1">
+                →
+            </span>
+            
+           </button>     
+          </a>
         </div>
       </section>
       
       <div className="grid place-items-center">    
       <Link href="https://vms.simumira.com/"
       target="_blank">
-      <div className="group relative py-5 p-1 mt-20 w-full max-w-md j cursor-pointer overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl border-sky-950">
+      <div className="group relative py-5 p-1 mt-20 w-full max-w-md j cursor-pointer overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl border-sky-950">
         <Image 
           src="/images/vms-login.png" // ganti sesuai gambar kamu
           alt="VMS login"
@@ -96,7 +117,7 @@ export default function Home() {
 
         <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">
           <h3 className="text-xl font-semibold">VMS Login</h3>
-          <p className="text-sm">Klik untuk membuka Vms web</p>
+          <p className="text-sm">Klik untuk membuka Vms Login</p>
         </div>
       </div>
     </Link>
@@ -110,7 +131,7 @@ export default function Home() {
       <EbookSection />
 
       {/* Footer */}
-      <footer className="text-center text-white text-sm py-10">
+      <footer className="text-center text-white text-sm py-10 mb-0">
         © Umira Sinergi Global 2026. All rights reserved.
       </footer>
     </main>
