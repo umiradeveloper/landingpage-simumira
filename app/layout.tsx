@@ -9,8 +9,8 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Umira",
-  description: "Company Profile Umira",
+  title: "SIM Umira",
+  description: "System Information Management Umira",
 };
 
 export default function RootLayout({
