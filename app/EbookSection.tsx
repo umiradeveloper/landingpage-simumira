@@ -15,7 +15,7 @@ export default function EbookSection() {
         target="_blank">
           <div className=" group
               bg-[#086078] backdrop-blur
-              rounded-2xl p-6
+              rounded-4xl p-6
               shadow-lg
               h-full
               transition-all duration-300
@@ -37,7 +37,7 @@ export default function EbookSection() {
         target="_blank">
         <div className=" group
             bg-[#086078] backdrop-blur
-            rounded-2xl p-6
+            rounded-4xl p-6
             shadow-lg
             transition-all duration-300
             hover:bg-black
@@ -57,7 +57,7 @@ export default function EbookSection() {
         target="_blank">
           <div className=" group
               bg-[#086078] backdrop-blur
-              rounded-2xl p-6
+              rounded-4xl p-6
               shadow-lg
               h-full
               transition-all duration-300
@@ -77,7 +77,7 @@ export default function EbookSection() {
           target="_blank">
             <div className=" group
                 bg-[#086078] backdrop-blur
-                rounded-2xl p-6
+                rounded-4xl p-6
                 shadow-lg
                 h-full
                 transition-all duration-300

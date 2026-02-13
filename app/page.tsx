@@ -39,7 +39,7 @@ export default function Home() {
           target="_blank">
           <button className="group
             px-10 py-2.5
-            rounded-full
+            rounded-xl
             bg-[#086078]
             text-white
             font-semibold
@@ -61,7 +61,7 @@ export default function Home() {
           <button className="
                 group
             px-14 py-2.5
-            rounded-full
+            rounded-xl
             bg-[#086078]
             text-white
             font-semibold
@@ -81,7 +81,7 @@ export default function Home() {
           target="_blank">
           <button className="group
             px-10 py-2.5
-            rounded-full
+            rounded-xl
             bg-[#086078]
             text-white
             font-semibold
@@ -102,7 +102,7 @@ export default function Home() {
           target="_blank">
           <button className="group
             px-10 py-2.5
-            rounded-full
+            rounded-xl
             bg-[#086078]
             text-white
             font-semibold
@@ -128,7 +128,7 @@ export default function Home() {
         target="_blank">
         <div className="vms-card group relative py-1 p-1 mt-20 w-full max-w-md cursor-pointer overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl  rounded-4xl ">
           <Image 
-            src="/images/Vms-login.png" 
+            src="/images/vms_gambar.jpeg" 
             alt="VMS Login"
             width={700}
             height={400}
@@ -148,7 +148,7 @@ export default function Home() {
       target="_blank">
       <div className="vms-card group relative py-1 p-1 mt-20 w-full max-w-md cursor-pointer overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl rounded-4xl ">
         <Image 
-          src="/images/SuperApps.jpeg" 
+          src="/images/costcontrol.png" 
           alt="SuperApps Login"
           width={700}
           height={400}
@@ -168,7 +168,7 @@ export default function Home() {
       target="_blank">
       <div className="vms-card group relative py-1 p-1 mt-20 w-full max-w-md cursor-pointer overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl rounded-4xl ">
         <Image 
-          src="/images/webmail.png" 
+          src="/images/emailcorporate.png" 
           alt="Webmail"
           width={700}
           height={400}
@@ -192,7 +192,7 @@ export default function Home() {
       target="_blank">
       <div className="vms-card group relative py-1 p-1 mt-10 w-full max-w-md cursor-pointer overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl justify-center rounded-4xl ">
         <Image 
-          src="/images/Umira_Drive.png"
+          src="/images/umidrive.png"
           alt="Umira drive"
           width={700}
           height={400}
