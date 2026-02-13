@@ -148,7 +148,7 @@ export default function Home() {
       target="_blank">
       <div className="vms-card group relative py-1 p-1 mt-20 w-full max-w-md cursor-pointer overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl rounded-4xl ">
         <Image 
-          src="/images/SuperApps.png" 
+          src="/images/SuperApps.jpeg" 
           alt="SuperApps Login"
           width={700}
           height={400}
